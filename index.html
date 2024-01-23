@@ -4,8 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hockey Club</title>
+      <!-- tailwind and daisyui -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!--manrope font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  'primary': '#FF4240',
+                  'btn-primary': '#13131808',
+                }
+              }
+            }
+          }
+        </script>
+      <style>
+          .font-manrope{
+              font-family: 'Manrope', sans-serif;
+          }
+      </style>
 </head>
-<body>
+<body class="font-manrope">
   <header>
 
   </header>
@@ -13,7 +37,7 @@
 
   </main>
   <footer>
-    
+
   </footer>
 </body>
 </html>
